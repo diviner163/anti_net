@@ -1,6 +1,12 @@
 # 节点列表
-node-01.diviner163.com#Region-01#cdn.windows.com
-node-02.diviner163.com#Region-02#cdn.office.com
-node-03.diviner163.com#Region-03#cdn.azure.com
-node-04.diviner163.com#Region-04#cdn.microsoft.com
-node-05.diviner163.com#Region-05#update.microsoft.com
+# 格式：域名#备注#备用域名
+time.is#Region-01#cdn.windows.com
+icook.hk#Region-02#cdn.office.com
+icook.tw#Region-03#cdn.azure.com
+ip.sb#Region-04#cdn.microsoft.com
+japan.com#Region-05#cdn.microsoft.com
+malaysia.com#Region-06#cdn.microsoft.com
+russia.com#Region-07#cdn.microsoft.com
+singapore.com#Region-08#cdn.microsoft.com
+skk.moe#Region-09#cdn.microsoft.com
+www.visa.com.hk#Region-10#cdn.microsoft.com

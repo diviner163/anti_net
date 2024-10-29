@@ -11,9 +11,8 @@
   },
   "authentication": {
     "enabled": true,
-    "domains": [
-      "diviner163.com",
-      "*.diviner163.com"
+    "allowedDomains": [
+      ".workers.dev"
     ]
   }
 } 

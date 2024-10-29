@@ -1,71 +1,63 @@
 # CF Worker 智能订阅系统
 
-专为全球网络环境优化的高性能节点管理系统。
+一个基于 Cloudflare Workers 的高性能节点管理系统。
 
-## 特性
+## 功能特点
 
-- 🛡️ 网络优化机制
-  - 智能DNS解析
-  - 连接稳定性增强
-  - 多端口支持
-  - 协议优化
+- ⚡️ 智能节点优选
+- 🔄 自动故障转移
+- 📊 实时性能监控
+- 🛡️ 内置安全防护
+- 🌐 智能路由优化
+- 🚀 自动负载均衡
 
-- 🔄 连接质量提升
-  - 智能DNS缓存
-  - 路由优化
-  - 故障转移
-  - 延迟优化
+## 快速部署
 
-- 🚀 性能保障
-  - 节点状态监控
-  - 负载均衡
-  - 智能缓存
-  - 并发处理
-
-## 部署步骤
-
-### 1. 前置需求
+### 1. 准备工作
 - Cloudflare 账号
-- 自定义域名（推荐）
-- GitHub 账号
+- Workers 服务已启用
+- GitHub 账号（用于存储配置）
 
-### 2. 配置文件准备
-1. Fork 本仓库
-2. 修改配置文件：
-   - `config/config.json`: 基础配置
-   - `config/china.json`: 中国网络优化配置
-   - `config/security.json`: 安全配置
+### 2. 部署步骤
 
-### 3. 节点配置
-1. 编辑 `endpoints/tls.txt` 和 `endpoints/notls.txt`
-2. 添加您的节点信息，格式：
-   ```
-   域名#备注（延迟）#备用域名
-   ```
+1. **Fork 本仓库**
+   - 访问 GitHub 仓库
+   - 点击右上角 Fork 按钮
 
-### 4. Workers 部署
-1. 登录 Cloudflare Dashboard
-2. 创建新的 Worker
-3. 复制 `worker.js` 内容
-4. 部署 Worker
+2. **创建 Worker**
+   - 登录 Cloudflare Dashboard
+   - 进入 Workers & Pages
+   - 点击 "Create Application"
+   - 选择 "Create Worker"
 
-### 5. 域名绑定（推荐）
-1. 在 Workers 设置中添加自定义域名
-2. 配置 DNS 记录指向 Workers
+3. **部署配置**
+   - 复制 `worker.js` 内容到 Worker
+   - 点击 "Save and Deploy"
 
-## 使用说明
+4. **自定义域名**（可选）
+   - Workers → 选择你的 Worker
+   - 点击 "Triggers"
+   - 添加自定义域名
 
-### 基础访问
+### 3. 使用方法
+
+访问以下路径获取节点：
 - `/auto` - 自动选择最优节点
-- `/hk` - 香港节点
-- `/sg` - 新加坡节点
-- `/jp` - 日本节点
+- `/r1` - 区域1节点
+- `/r2` - 区域2节点
+- `/r3` - 区域3节点
 
-### 高级参数
-- `?timeout=3000` - 设置超时时间
-- `?area=hk,jp` - 指定地区
-- `?exclude=sg` - 排除地区
+## 注意事项
 
-## 安全配置
+1. 确保 Worker 配置正确
+2. 定期更新节点信息
+3. 监控系统性能
+4. 及时处理错误日志
 
-### 速率限制
+## License
+
+MIT License
+
+## 支持
+
+如有问题，请提交 Issue 或 Pull Request

@@ -1,6 +1,7 @@
 # 节点列表
-node-06.diviner163.com#Region-06#cdn.windows.com
-node-07.diviner163.com#Region-07#cdn.office.com
-node-08.diviner163.com#Region-08#cdn.azure.com
-node-09.diviner163.com#Region-09#cdn.microsoft.com
-node-10.diviner163.com#Region-10#update.microsoft.com
+# 格式：域名#备注#备用域名
+www.ipget.net#Region-11#cdn.windows.com
+www.hugedomains.com#Region-12#cdn.office.com
+www.4chan.org#Region-13#cdn.azure.com
+www.okcupid.com#Region-14#cdn.microsoft.com
+www.baipiao.eu.org#Region-15#cdn.microsoft.com

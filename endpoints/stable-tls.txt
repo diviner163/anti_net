@@ -1,5 +1,0 @@
-# TLS节点地址列表
-cloudflare.com#Cloudflare官方
-workers.dev#Workers
-time.cloudflare.com#CF时间服务器
-speed.cloudflare.com#CF速度测试 

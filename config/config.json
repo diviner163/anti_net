@@ -2,7 +2,7 @@
   "subscription": {
     "quickAccess": ["auto", "r1", "r2", "r3"],
     "converter": {
-      "backend": "sub.diviner163.com",
+      "backend": "api.v1.mk",
       "config": "https://raw.githubusercontent.com/diviner163/anti_net/main/config/rules.ini"
     }
   },
@@ -17,6 +17,29 @@
   "rules": {
     "direct": "https://raw.githubusercontent.com/diviner163/anti_net/main/rules/direct.list",
     "proxy": "https://raw.githubusercontent.com/diviner163/anti_net/main/rules/proxy.list",
-    "custom": "https://raw.githubusercontent.com/diviner163/anti_net/main/rules/custom.list"
+    "custom": "https://raw.githubusercontent.com/diviner163/anti_net/main/rules/custom.list",
+    "network": "https://raw.githubusercontent.com/diviner163/anti_net/main/rules/network_rules.list"
+  },
+  "networkOptimization": {
+    "enabled": true,
+    "dnsEnhancement": {
+      "servers": [
+        "https://dns.alidns.com/dns-query",
+        "https://doh.pub/dns-query",
+        "https://dns.google/dns-query",
+        "https://cloudflare-dns.com/dns-query"
+      ],
+      "localServers": [
+        "119.29.29.29",
+        "223.5.5.5",
+        "180.76.76.76",
+        "114.114.114.114"
+      ]
+    },
+    "connectionStability": {
+      "ports": [443, 8443, 2053, 2083, 2087, 2096, 2095, 2516],
+      "alternateRoutes": true,
+      "paths": ["", "/", "/ws", "/websocket"]
+    }
   }
 } 

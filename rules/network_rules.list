@@ -3,6 +3,7 @@
 DOMAIN-SUFFIX,windows.net,DIRECT
 DOMAIN-SUFFIX,microsoft.com,DIRECT
 DOMAIN-SUFFIX,office.com,DIRECT
+DOMAIN-SUFFIX,azure.com,DIRECT
 
 # 连接增强
 DOMAIN-KEYWORD,cdn,PROXY,no-resolve
@@ -11,4 +12,5 @@ DOMAIN-KEYWORD,api,PROXY,no-resolve
 
 # 解析优化
 IP-CIDR,1.1.1.1/32,PROXY,no-resolve
-IP-CIDR,8.8.8.8/32,PROXY,no-resolve 
+IP-CIDR,8.8.8.8/32,PROXY,no-resolve
+IP-CIDR,9.9.9.9/32,PROXY,no-resolve 

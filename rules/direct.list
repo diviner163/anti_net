@@ -1,0 +1,77 @@
+# 中国大陆直连域名
+DOMAIN-SUFFIX,cn
+DOMAIN-SUFFIX,edu.cn
+DOMAIN-SUFFIX,gov.cn
+DOMAIN-SUFFIX,mil.cn
+
+# 常用中国网站
+DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,baidu.com
+DOMAIN-SUFFIX,weibo.com
+DOMAIN-SUFFIX,alicdn.com
+DOMAIN-SUFFIX,aliyun.com
+DOMAIN-SUFFIX,jd.com
+DOMAIN-SUFFIX,taobao.com
+DOMAIN-SUFFIX,tmall.com
+DOMAIN-SUFFIX,bilibili.com
+DOMAIN-SUFFIX,163.com
+DOMAIN-SUFFIX,126.com
+DOMAIN-SUFFIX,netease.com
+DOMAIN-SUFFIX,mi.com
+DOMAIN-SUFFIX,xiaomi.com
+DOMAIN-SUFFIX,huawei.com
+DOMAIN-SUFFIX,tencent.com
+DOMAIN-SUFFIX,weixin.com
+DOMAIN-SUFFIX,zhihu.com
+DOMAIN-SUFFIX,douban.com
+DOMAIN-SUFFIX,douyin.com
+DOMAIN-SUFFIX,bytedance.com
+DOMAIN-SUFFIX,alipay.com
+DOMAIN-SUFFIX,ctrip.com
+DOMAIN-SUFFIX,meituan.com
+DOMAIN-SUFFIX,dianping.com
+DOMAIN-SUFFIX,iqiyi.com
+DOMAIN-SUFFIX,youku.com
+DOMAIN-SUFFIX,sohu.com
+DOMAIN-SUFFIX,sina.com.cn
+DOMAIN-SUFFIX,sina.cn
+DOMAIN-SUFFIX,pinduoduo.com
+
+# 中国云服务商
+DOMAIN-SUFFIX,aliyuncs.com
+DOMAIN-SUFFIX,qcloud.com
+DOMAIN-SUFFIX,myqcloud.com
+DOMAIN-SUFFIX,qiniucdn.com
+DOMAIN-SUFFIX,qiniudns.com
+DOMAIN-SUFFIX,baidubce.com
+DOMAIN-SUFFIX,bcebos.com
+DOMAIN-SUFFIX,bdimg.com
+DOMAIN-SUFFIX,bdstatic.com
+
+# 中国银行
+DOMAIN-SUFFIX,95516.com
+DOMAIN-SUFFIX,icbc.com.cn
+DOMAIN-SUFFIX,abchina.com
+DOMAIN-SUFFIX,boc.cn
+DOMAIN-SUFFIX,bankcomm.com
+DOMAIN-SUFFIX,cmbchina.com
+DOMAIN-SUFFIX,psbc.com
+DOMAIN-SUFFIX,cebbank.com
+DOMAIN-SUFFIX,cmbc.com.cn
+DOMAIN-SUFFIX,pingan.com
+
+# CDN 和DNS服务
+DOMAIN-SUFFIX,chinanetcenter.com
+DOMAIN-SUFFIX,chinacache.net
+DOMAIN-SUFFIX,dnspod.cn
+DOMAIN-SUFFIX,cloudxns.net
+
+# 中国IP地址段
+GEOIP,CN,DIRECT
+
+# 局域网地址
+IP-CIDR,127.0.0.0/8,DIRECT
+IP-CIDR,192.168.0.0/16,DIRECT
+IP-CIDR,10.0.0.0/8,DIRECT
+IP-CIDR,172.16.0.0/12,DIRECT
+IP-CIDR,100.64.0.0/10,DIRECT

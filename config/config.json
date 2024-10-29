@@ -1,0 +1,22 @@
+{
+  "subscription": {
+    "quickAccess": ["auto", "r1", "r2", "r3"],
+    "converter": {
+      "backend": "sub.diviner163.com",
+      "config": "https://raw.githubusercontent.com/diviner163/anti_net/main/config/rules.ini"
+    }
+  },
+  "speedTest": {
+    "minSpeed": 5,
+    "timeout": 3000
+  },
+  "endpoints": {
+    "tls": "https://raw.githubusercontent.com/diviner163/anti_net/main/endpoints/tls.txt",
+    "notls": "https://raw.githubusercontent.com/diviner163/anti_net/main/endpoints/notls.txt"
+  },
+  "rules": {
+    "direct": "https://raw.githubusercontent.com/diviner163/anti_net/main/rules/direct.list",
+    "proxy": "https://raw.githubusercontent.com/diviner163/anti_net/main/rules/proxy.list",
+    "custom": "https://raw.githubusercontent.com/diviner163/anti_net/main/rules/custom.list"
+  }
+} 

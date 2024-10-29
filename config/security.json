@@ -1,0 +1,19 @@
+{
+  "rateLimit": {
+    "enabled": true,
+    "maxRequests": 120,
+    "timeWindow": 3600
+  },
+  "ddosProtection": {
+    "enabled": true,
+    "threshold": 60,
+    "blockDuration": 1800
+  },
+  "authentication": {
+    "enabled": true,
+    "domains": [
+      "diviner163.com",
+      "*.diviner163.com"
+    ]
+  }
+} 

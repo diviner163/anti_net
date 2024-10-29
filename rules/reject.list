@@ -1,0 +1,11 @@
+# 广告域名
+DOMAIN-SUFFIX,ads.com
+DOMAIN-KEYWORD,adserver
+DOMAIN-KEYWORD,analytics
+DOMAIN-KEYWORD,tracking
+
+# 常见广告服务商
+DOMAIN-SUFFIX,doubleclick.net
+DOMAIN-SUFFIX,googleadservices.com
+DOMAIN-SUFFIX,google-analytics.com
+DOMAIN-SUFFIX,adnxs.com 

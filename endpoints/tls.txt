@@ -1,0 +1,6 @@
+# 节点列表
+node-01.diviner163.com#Region-01#cdn.windows.com
+node-02.diviner163.com#Region-02#cdn.office.com
+node-03.diviner163.com#Region-03#cdn.azure.com
+node-04.diviner163.com#Region-04#cdn.microsoft.com
+node-05.diviner163.com#Region-05#update.microsoft.com

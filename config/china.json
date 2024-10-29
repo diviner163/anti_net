@@ -1,0 +1,30 @@
+{
+  "networkOptimization": {
+    "enabled": true,
+    "dnsEnhancement": {
+      "servers": [
+        "https://dns.alidns.com/dns-query",
+        "https://doh.pub/dns-query",
+        "https://223.5.5.5/dns-query"
+      ],
+      "localServers": [
+        "119.29.29.29",
+        "223.5.5.5",
+        "180.76.76.76"
+      ]
+    },
+    "connectionStability": {
+      "ports": [2053, 2083, 2087, 2096, 8443],
+      "alternateRoutes": true,
+      "paths": ["", "/", "/ws", "/websocket"]
+    },
+    "accessOptimization": {
+      "enabled": true,
+      "routeOptimization": {
+        "enabled": true,
+        "dynamicRouting": true,
+        "pathOptimization": true
+      }
+    }
+  }
+} 

@@ -1,0 +1,40 @@
+# 国际社交媒体
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,fb.com
+DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,telegram.me
+DOMAIN-SUFFIX,discord.com
+DOMAIN-SUFFIX,reddit.com
+
+# Google服务
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,gmail.com
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,chrome.com
+
+# 流媒体服务
+DOMAIN-SUFFIX,netflix.com
+DOMAIN-SUFFIX,spotify.com
+DOMAIN-SUFFIX,hulu.com
+DOMAIN-SUFFIX,disney.com
+DOMAIN-SUFFIX,primevideo.com
+
+# 开发平台
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,gitlab.com
+DOMAIN-SUFFIX,stackoverflow.com
+DOMAIN-SUFFIX,npmjs.com
+DOMAIN-SUFFIX,docker.com
+
+# 云服务
+DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,cloudfront.net
+DOMAIN-SUFFIX,azure.com
+DOMAIN-SUFFIX,digitalocean.com
+
+# 默认代理
+GEOIP,!CN,PROXY

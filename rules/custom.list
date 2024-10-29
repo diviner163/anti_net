@@ -1,0 +1,17 @@
+# 自定义规则
+# 格式：规则类型,匹配内容,策略
+
+# 游戏平台
+DOMAIN-SUFFIX,steam-chat.com,PROXY
+DOMAIN-SUFFIX,steamcommunity.com,PROXY
+DOMAIN-SUFFIX,steampowered.com,PROXY
+DOMAIN-SUFFIX,steamstatic.com,PROXY
+
+# 学术网站
+DOMAIN-SUFFIX,sci-hub.se,PROXY
+DOMAIN-SUFFIX,researchgate.net,PROXY
+DOMAIN-SUFFIX,academia.edu,PROXY
+DOMAIN-SUFFIX,jstor.org,PROXY
+
+# 自定义直连
+DOMAIN-SUFFIX,example.com,DIRECT 
